@@ -1,0 +1,36 @@
+[
+  {
+    "id": "issue-001",
+    "number": 1,
+    "slug": "issue-1-the-ai-moment",
+    "title": "The AI Moment We've All Been Waiting For",
+    "subtitle": "Why this week's news actually matters — and what to do about it.",
+    "intro": "Welcome to the very first issue of Prompted IRL. If you're here, you're probably someone who finds AI genuinely interesting — not because your company mandated a workshop on it, but because you've noticed it quietly reshaping how you live, work, and scroll. This newsletter exists for exactly that kind of person. Smart, curious, not here for hype. Let's get into it.",
+    "publishedAt": "2024-01-10T09:00:00.000Z",
+    "download": [
+      {
+        "headline": "ChatGPT Crossed 100 Million Users in 60 Days",
+        "body": "The fastest adoption of any consumer technology in history. For context: Instagram took 2.5 years, TikTok took 9 months. What does it mean when an AI tool spreads faster than social media? We're either at the beginning of something genuinely transformative, or we're all very good at downloading apps and then forgetting about them. (The jury is still out.)",
+        "link": ""
+      },
+      {
+        "headline": "AI Is Now Writing More Code Than Most Junior Developers",
+        "body": "GitHub's data shows that Copilot is responsible for roughly 46% of code written in the repos that use it. That number is going up. This isn't a doom story — it's a shift in what 'knowing how to code' means. Prompt literacy is becoming the new technical literacy.",
+        "link": ""
+      },
+      {
+        "headline": "The EU AI Act Is Almost Real",
+        "body": "Europe's sweeping AI regulation is entering enforcement phase. If you work in tech or at a company that uses AI tools (which is now almost every company), this is the regulation that will reshape how AI gets built and deployed. The short version: more transparency, less black box, significant fines for violations.",
+        "link": ""
+      }
+    ],
+    "toolOfWeek": {
+      "name": "Perplexity AI",
+      "description": "Perplexity is a search engine that thinks. Instead of giving you ten blue links, it synthesizes an answer from multiple sources and cites them inline. It's become my go-to for any research question where I want context, not just a URL.",
+      "usage": "Try asking it something you'd normally Google but find frustrating — like 'what are the actual risks of seed oils?' or 'how does the EU AI Act affect US companies?' — and see how different the experience feels.",
+      "link": "https://perplexity.ai"
+    },
+    "hotTake": "We keep talking about AI like it's something that's happening to us. But the most interesting thing I've noticed this week is how many people — women especially — are quietly using it to reclaim time. To draft the email they've been avoiding. To research the thing nobody explained to them properly. To build the thing they didn't have the technical skills for before.\n\nThe narrative is always about disruption. The reality I keep seeing is about access. AI isn't just changing what work looks like — it's changing who gets to do what work. That's worth paying attention to.",
+    "published": true
+  }
+]
