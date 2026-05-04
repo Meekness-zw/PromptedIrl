@@ -118,7 +118,7 @@ export default function IssueForm({ issue }: { issue?: Issue }) {
   const textareaClass = `${inputClass} resize-none`;
 
   return (
-    <form onSubmit={(e) => handleSubmit(e, false)} className="space-y-10">
+    <form onSubmit={(e) => handleSubmit(e, false)} className="space-y-6 md:space-y-10">
       {error && (
         <div className="border border-red-300 bg-red-50 p-4">
           <p className="font-sans text-sm text-red-700">{error}</p>
@@ -126,8 +126,8 @@ export default function IssueForm({ issue }: { issue?: Issue }) {
       )}
 
       {/* Meta */}
-      <section className="border border-border p-6 md:p-8">
-        <h2 className="font-serif text-xl mb-6">Issue Info</h2>
+      <section className="border border-border p-4 md:p-8">
+        <h2 className="font-serif text-lg md:text-xl mb-5 md:mb-6">Issue Info</h2>
         <div className="grid md:grid-cols-2 gap-4">
           <div>
             <label className={labelClass}>Issue Number</label>
@@ -174,8 +174,8 @@ export default function IssueForm({ issue }: { issue?: Issue }) {
       </section>
 
       {/* Intro */}
-      <section className="border border-border p-6 md:p-8">
-        <h2 className="font-serif text-xl mb-6">Intro</h2>
+      <section className="border border-border p-4 md:p-8">
+        <h2 className="font-serif text-lg md:text-xl mb-5 md:mb-6">Intro</h2>
         <label className={labelClass}>Opening paragraph(s)</label>
         <textarea
           value={form.intro}
@@ -187,9 +187,9 @@ export default function IssueForm({ issue }: { issue?: Issue }) {
       </section>
 
       {/* The Download */}
-      <section className="border border-border p-6 md:p-8">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="font-serif text-xl">
+      <section className="border border-border p-4 md:p-8">
+        <div className="flex items-center justify-between mb-5 md:mb-6">
+          <h2 className="font-serif text-lg md:text-xl">
             <span className="text-blush text-sm font-sans tracking-widest uppercase mr-3">01</span>
             The Download
           </h2>
@@ -255,8 +255,8 @@ export default function IssueForm({ issue }: { issue?: Issue }) {
       </section>
 
       {/* Tool of the Week */}
-      <section className="border border-border p-6 md:p-8">
-        <h2 className="font-serif text-xl mb-6">
+      <section className="border border-border p-4 md:p-8">
+        <h2 className="font-serif text-lg md:text-xl mb-5 md:mb-6">
           <span className="text-blush text-sm font-sans tracking-widest uppercase mr-3">02</span>
           Tool of the Week
         </h2>
@@ -307,8 +307,8 @@ export default function IssueForm({ issue }: { issue?: Issue }) {
       </section>
 
       {/* Hot Take */}
-      <section className="border border-border p-6 md:p-8">
-        <h2 className="font-serif text-xl mb-6">
+      <section className="border border-border p-4 md:p-8">
+        <h2 className="font-serif text-lg md:text-xl mb-5 md:mb-6">
           <span className="text-blush text-sm font-sans tracking-widest uppercase mr-3">03</span>
           Hot Take
         </h2>

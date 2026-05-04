@@ -3,9 +3,15 @@ import "./globals.css";
 import PageLoader from "@/components/PageLoader";
 
 export const metadata: Metadata = {
-  title: "Prompted IRL — AI + Pop Culture + Real Life",
+  title: {
+    default: "Prompted IRL — AI + Pop Culture + Real Life",
+    template: "%s — Prompted IRL",
+  },
   description:
     "The weekly AI newsletter that actually makes sense. AI stories, tools, and takes for smart, curious people.",
+  icons: {
+    icon: "/icon.svg",
+  },
   openGraph: {
     title: "Prompted IRL",
     description: "The weekly AI newsletter that actually makes sense.",

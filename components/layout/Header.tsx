@@ -118,6 +118,15 @@ export default function Header({ darkHero = false }: HeaderProps) {
             <div className="absolute bottom-8 right-8 font-serif font-black text-pink opacity-20 leading-none"
               style={{ fontSize: "8rem" }}>✦</div>
 
+            {/* Explicit close button */}
+            <button
+              onClick={() => setOpen(false)}
+              aria-label="Close menu"
+              className="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center text-warm hover:text-cream transition-colors"
+            >
+              <span className="text-2xl font-sans font-light leading-none">✕</span>
+            </button>
+
             <div className="h-14" />
 
             <div className="flex-1 flex flex-col justify-center px-8 gap-0">

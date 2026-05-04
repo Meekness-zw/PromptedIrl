@@ -10,21 +10,19 @@ export default function AdminDashboard() {
   const drafts = issues.filter((i) => !i.published).length;
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-10">
-      <div className="flex items-center justify-between mb-10">
+    <div className="max-w-5xl mx-auto px-4 md:px-6 py-8 md:py-10">
+      <div className="flex items-start sm:items-center justify-between gap-4 mb-8 md:mb-10">
         <div>
-          <h1 className="font-serif text-3xl text-ink mb-1">Dashboard</h1>
-          <p className="font-sans text-sm text-muted">
-            Manage your newsletter issues
-          </p>
+          <h1 className="font-serif text-2xl md:text-3xl text-ink mb-1">Dashboard</h1>
+          <p className="font-sans text-sm text-muted">Manage your newsletter issues</p>
         </div>
-        <Link href="/admin/issues/new" className="btn-primary py-3 px-6 text-xs">
+        <Link href="/admin/issues/new" className="btn-primary py-2.5 px-4 md:py-3 md:px-6 text-xs shrink-0">
           + New Issue
         </Link>
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-3 gap-0 border border-border mb-10">
+      <div className="grid grid-cols-3 gap-0 border border-border mb-8 md:mb-10">
         {[
           { label: "Total Issues", value: issues.length },
           { label: "Published", value: published },

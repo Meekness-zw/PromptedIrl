@@ -15,18 +15,16 @@ export default async function EditIssuePage({
   if (!issue) notFound();
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-10">
-      <div className="mb-8">
-        <Link
-          href="/admin"
-          className="font-sans text-xs tracking-widest uppercase text-muted link-underline"
-        >
+    <div className="max-w-3xl mx-auto px-4 md:px-6 py-8 md:py-10">
+      <div className="mb-6 md:mb-8">
+        <Link href="/admin"
+          className="font-sans text-xs tracking-widest uppercase text-muted link-underline">
           ← Dashboard
         </Link>
-        <h1 className="font-serif text-3xl text-ink mt-4">
+        <h1 className="font-serif text-2xl md:text-3xl text-ink mt-4">
           Edit Issue #{issue.number}
         </h1>
-        <p className="font-sans text-sm text-muted mt-1">{issue.title}</p>
+        <p className="font-sans text-sm text-muted mt-1 line-clamp-1">{issue.title}</p>
       </div>
       <IssueForm issue={issue} />
     </div>
